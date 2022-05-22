@@ -1,2 +1,14 @@
-package Classes;public class Book {
+package Classes;
+
+public class Book {
+    private String title;
+
+    public Book(String title) {
+        this.title = title;
+    }
+
+    @Override
+    public String toString() {
+        return "[" + title + "]";
+    }
 }
